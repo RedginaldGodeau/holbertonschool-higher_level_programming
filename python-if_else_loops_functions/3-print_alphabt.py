@@ -2,4 +2,4 @@
 import string
 for letter in string.ascii_lowercase:
     if letter != 'q' and letter != 'e':
-        print(letter, end ="")
+        print("{alph}".format(alph=letter), end ="")
