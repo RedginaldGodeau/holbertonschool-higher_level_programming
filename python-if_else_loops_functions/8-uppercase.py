@@ -4,5 +4,5 @@ def uppercase(str):
         character = x
         if "abcdefghijklmnopqrstwxyz".find(x) != -1:
             character = chr(ord(x) - 32)
-        print("{character}".format(character = character), end="")
-    print("\n")
+        print("{character}".format(character = character), end = "")
+    print("")
