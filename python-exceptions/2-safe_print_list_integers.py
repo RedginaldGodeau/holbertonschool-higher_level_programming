@@ -1,12 +1,17 @@
 #!/usr/bin/python3
 def safe_print_list_integers(my_list=[], x=0):
-    try:
-        if not my_list:
-            return (0)
+    if x == 0 or not my_list:
+        print("0")
+        return (0)
 
-        for i in range(x):
+    for i in range(x):
+        try:
             print("{:d}".format(my_list[i]), end="")
+        except:
+            print("", end="")
         print()
-        return (my_list[x])
-    except:
-        return (my_list[-1])
+
+        try:
+            return (my_list[x])
+        except:
+            return (my_list[-1])
