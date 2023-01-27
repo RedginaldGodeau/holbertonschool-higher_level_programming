@@ -7,17 +7,6 @@ def print_matrix_integer(matrix=[[]]):
     for arr in matrix:
         for arr2 in arr:
             if (arr2 == arr[-1]):
-                print("{:}".format(arr2), end="$\n")
+                print("{:d}".format(arr2), end="$\n")
             else:
-                print("{:}".format(arr2), end=" ")
-
-
-matrix = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-]
-
-print_matrix_integer(matrix)
-print("--")
-print_matrix_integer()
+                print("{:d}".format(arr2), end=" ")
