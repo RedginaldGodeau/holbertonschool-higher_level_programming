@@ -6,5 +6,4 @@ def safe_print_list_integers(my_list=[], x=0):
         print()
         return (my_list[x])
     except:
-        print()
         return (my_list[-1])
