@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-def safe_print_division(a, b):
-    r = None
+def safe_print_list_integers(my_list=[], x=0):
     try:
-        r = a / b 
-        return (r)
+        for i in range(x):
+            print("{:d}".format(my_list[i]), end="")
+        print()
+        return (my_list[x])
     except:
-        return (None)
-    print("Inside result: {:d}".format(r))
+        print()
+        return (my_list[-1])
