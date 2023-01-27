@@ -11,7 +11,7 @@ def safe_print_list_integers(my_list=[], x=0):
             print("", end="")
         print()
 
-        try:
-            return (my_list[x])
-        except:
-            return (my_list[-1])
+    try:
+        return (my_list[x])
+    except:
+        return (my_list[-1])
