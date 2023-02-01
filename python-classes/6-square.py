@@ -38,7 +38,7 @@ class Square:
     size = property(getsize, setsize)
 
     def getposition(self):
-        return (self)
+        return (self.__position)
 
     def setposition(self, value):
         if (value[1] * value[0] < 0):
