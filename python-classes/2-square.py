@@ -13,7 +13,7 @@ class Square:
         try:
             if (size < 0):
                 raise ValueError
-            elif (isinstance(size, int)):
+            elif (not isinstance(size, int)):
                 raise TypeError;
             self.__size = size
         except TypeError:
