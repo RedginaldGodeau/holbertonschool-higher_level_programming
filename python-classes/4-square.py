@@ -22,7 +22,7 @@ class Square:
 
     def getsize(self):
         return (self.__size)
-    
+
     def setsize(self, value):
         if (not isinstance(value, int)):
             raise TypeError("size must be an integer")
