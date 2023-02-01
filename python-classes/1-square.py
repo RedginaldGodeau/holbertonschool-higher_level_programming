@@ -3,4 +3,11 @@
 
 
 class Square:
-    """Make a Square"""
+    """
+    Make a Square
+    Args:
+        __size (int): size.
+    """
+
+    def __init__(self,size):
+        self.size = size
