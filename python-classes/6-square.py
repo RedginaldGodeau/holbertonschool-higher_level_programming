@@ -10,8 +10,6 @@ class Square:
     """
 
     def __init__(self, size=0, position=(0, 0)):
-        print(len(position))
-
         if (not isinstance(size, int)):
             raise TypeError("size must be an integer")
         elif (size < 0):
@@ -66,8 +64,3 @@ class Square:
             for i2 in range(self.__size):
                 print("#", end="")
             print()
-
-my_square_3 = Square(3, (3, ))
-my_square_3.my_print()
-
-print("--")
