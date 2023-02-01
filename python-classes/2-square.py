@@ -12,9 +12,11 @@ class Square:
     def __init__(self, size):
         try:
             if (size < 0):
-                raise ValueInf
+                raise ValueError
+            elif (isinstance(<var>, int)
+                raise TypeError;
             self.__size = size
         except ValueInf:
-            print("size must be >= 0")
+            print("size must be an integer")
         except ValueError:
-            print("Could not convert data to an integer.")
+            print("size must be >= 0")
