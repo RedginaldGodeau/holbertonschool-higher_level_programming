@@ -24,5 +24,6 @@ def matrix_divided(matrix, div):
                 t[i] = round(t[i] / div, 2)
             except ZeroDivisionError:
                 print("division by zero")
+                return
 
     return (cpy)
