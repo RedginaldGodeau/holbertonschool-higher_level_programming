@@ -16,7 +16,7 @@ class Square:
             raise ValueError("size must be >= 0")
         else:
             self.__size = size
-        if (not isinstance(value, int) or position[1] * position[0] < 0):
+        if (not isinstance(position, int) or position[1] * position[0] < 0):
             raise ValueError("size must be an integer")
         else:
             self.__position = position
