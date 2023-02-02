@@ -1,1 +1,21 @@
-a must be an integerb must be an integera must be an integer
+The ``0-add_interger`` module
+======================
+
+Using ``add_integer``
+-------------------
+
+This is an example text file in reStructuredText format.  First import
+``add_integer`` from the ``0-add_interger`` module:
+
+    >>> __import__('5-text_indentation').text_indentation
+
+Now use it:
+
+    >>> add_integer(1, 2)
+    3
+    >>> add_integer(100, -2)
+    98
+    >>> add_integer(2)
+    100
+    >>> add_integer(1, 2)
+    TypeError: b must be an integer
