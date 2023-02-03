@@ -33,6 +33,8 @@ class FonctionTest(unittest.TestCase):
         print(max_integer([255, 2.532, 0, -5]))
     def test8(self):
         print(max_integer([0, 2.532, 255, -5, 90]))
+    def test8(self):
+        print(max_integer([0, 2.532, 255, -5, 300]))
     
 
 if __name__ == '__main__':
