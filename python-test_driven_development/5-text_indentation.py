@@ -11,7 +11,7 @@ def text_indentation(text):
     for letter in text:
         if "?.:".find(letter) != -1:
             print(letter, end="")
-            print()
+            print("\n")
             spaceCheck = True
         else:
             if spaceCheck and letter == ' ':
