@@ -21,7 +21,7 @@ class Rectangle:
         rec = ""
         for i in range(self.getheight()):
             for i2 in range(self.getwidth()):
-                rec += self.print_symbol
+                rec += str(self.print_symbol)
             rec += "\n" if i < self.getheight() - 1 else ""
         return (rec)
     def __print__ (self):
