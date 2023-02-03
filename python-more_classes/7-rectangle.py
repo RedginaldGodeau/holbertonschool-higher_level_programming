@@ -6,6 +6,7 @@ class Rectangle:
     """Make a Rectangle"""
     
     number_of_instances = 0
+    print_symbol = "#"
     
     def __init__(self, width=0, height=0):
         self.__width = None
@@ -20,7 +21,7 @@ class Rectangle:
         rec = ""
         for i in range(self.getheight()):
             for i2 in range(self.getwidth()):
-                rec += "#"
+                rec += self.print_symbol
             rec += "\n" if i < self.getheight() - 1 else ""
         return (rec)
     def __print__ (self):
