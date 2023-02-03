@@ -4,11 +4,13 @@
 
 class Rectangle:
     """Make a Rectangle"""
+
     def __init__(self, width=0, height=0):
         self.__width = None
         self.__height = None
         self.setwidth(width)
         self.setheight(height)
+        Rectangle.number_of_instances += 1
 
     def getwidth(self):
         return (self.__width)
@@ -20,6 +22,7 @@ class Rectangle:
             raise ValueError("width must be >= 0")
         else:
             self.__width = value
+
     width = property(getwidth, setwidth)
 
     def getheight(self):
@@ -31,4 +34,5 @@ class Rectangle:
         elif (value < 0):
             raise ValueError("height must be >= 0")
         self.__height = value
+
     height = property(getheight, setheight)
