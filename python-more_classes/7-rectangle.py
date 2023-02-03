@@ -31,28 +31,22 @@ class Rectangle:
     def getwidth(self):
         return (self.__width)
     def setwidth(self, value):
-        try:
-            if (not isinstance(value, int)):
-                raise ValueError("width must be an integer")
-            elif (value < 0):
-                raise ValueError("width must be >= 0")
-            else:
-                self.__width = value
-        except Exception as err:
-            return (err)
+        if (not isinstance(value, int)):
+            raise TypeError("width must be an integer")
+        elif (value < 0):
+            raise ValueError("width must be >= 0")
+        else:
+            self.__width = value
     width = property(getwidth, setwidth)
 
     def getheight(self):
         return (self.__height)
     def setheight(self, value):
-        try:
-            if (not isinstance(value, int)):
-                raise ValueError("height must be an integer")
-            elif (value < 0):
-                raise ValueError("height must be >= 0")
-            self.__height = value
-        except Exception as err:
-            return (err)
+        if (not isinstance(value, int)):
+            raise TypeError("height must be an integer")
+        elif (value < 0):
+            raise ValueError("height must be >= 0")
+        self.__height = value
     height = property(getheight, setheight)
 
     def area(self):
