@@ -26,9 +26,6 @@ class Rectangle:
     def __print__(self):
         return (str(self))
 
-    def __repr__(self):
-        return ("Rectangle({}, {})".format(self.getwidth(), self.getheight()))
-
     def getwidth(self):
         return (self.__width)
 
