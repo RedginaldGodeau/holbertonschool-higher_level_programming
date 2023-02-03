@@ -36,5 +36,6 @@ class Rectangle:
                 raise ValueError("height must be >= 0")
             self.__height = value
         except Exception as err:
+            print(err)
             return (err)
     height = property(getheight, setheight)
