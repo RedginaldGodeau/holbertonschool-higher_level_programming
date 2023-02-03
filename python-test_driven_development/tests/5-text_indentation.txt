@@ -14,8 +14,9 @@ Now use it:
     ABCDE
 
     >>> text_indentation("""Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quonam modo? Utrum igitur tibi litteram videor an totas paginas commovere? \""")
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.$
-    Quonam modo?$
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    
+    Quonam modo?
 
     >>> text_indentation(5)
     TypeError: text must be a string
