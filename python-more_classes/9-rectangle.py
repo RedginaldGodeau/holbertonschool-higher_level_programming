@@ -69,5 +69,6 @@ class Rectangle:
         return (rect_2)
     
     @staticmethod
-    def square(cls, size=0):
+    def square(size=0):
+        rect = Rectangle(size, size)
         return (Rectangle(size, size))
