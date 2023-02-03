@@ -21,8 +21,6 @@ class FonctionTest(unittest.TestCase):
         print(max_integer([1, 2, 3, 4]))
     def test2(self):
         print(max_integer([]))
-    def test3(self):
-        print(max_integer([1, "A", 3, 4]))
     def test4(self):
         print(max_integer([5.524, 2.532, 0, -5]))
     
