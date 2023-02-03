@@ -59,6 +59,6 @@ class Rectangle:
     
     @staticmethod
     def bigger_or_equal(rect_1, rect_2):
-        if rect_1.area() >= rect_2():
+        if rect_1.area() >= rect_2.area():
             return (True)
         return (False)
