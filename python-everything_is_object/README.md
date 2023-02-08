@@ -1,8 +1,11 @@
 #MY BLOG
 -----------------------------------------------------
 Hello, my name is Redginald Godeau, and I attend Holberton. I'll be talking about the differences between mutable and immutable objects in Python in this blog article, along with why they matter.
-Every object in Python has a distinct identity (ID) and type. The object is identified by its ID, and the type specifies the operations that can be carried out on it.
+
 Every object in Python has a distinct identity (ID) and type. The object is identified by its ID, and the type specifies the operations that can be carried out on it.Immutable Objects: In Python, immutable objects are those that cannot be modified once they have been created. Integers, strings, and tuples are a few examples of immutable objects. The value of an immutable object cannot be modified once it has been created, according to this.
+
 Why is it important, and how does Python handle mutable and immutable objects differently: It important because it has an impact on the way variables are provided to functions and used. Because it must handle changes to mutable objects differently from changes to immutable objects, Python treats mutable and immutable objects differently. For instance, when a mutable object is passed to a function, the function has the ability to modify the object, and the modification remains even after the function has returned.
+
 What happens when changeable and immutable objects are provided arguments to functions: Python uses assignment to pass arguments. This indicates that the reference to the object is supplied to a function when it is invoked. The effects of this vary depending on whether an object is changeable or immutable. A mutable object can be changed when it is handed to a function, and the change will remain after the function has returned. An immutable object, on the other hand, cannot be changed by a function, and any modifications made to the object are lost once the function has finished and returned.
+
 The distinction between mutable and immutable objects in Python must be understood since it has an impact on how variables are supplied to functions and used. You can build Python code that is more effective and efficient if you comprehend these ideas.
