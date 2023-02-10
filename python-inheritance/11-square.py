@@ -49,8 +49,3 @@ class Square(Rectangle):
     
     def area(self):
         return (self.getwidth() * self.getheight())
-
-s = Square(13)
-
-print(s)
-print(s.area())
