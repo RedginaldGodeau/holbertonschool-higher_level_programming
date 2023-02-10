@@ -10,19 +10,13 @@ This is an example text file in reStructuredText format.  First import
     >>> __import__('1-my_list').MyList
 
 Now use it:
-
-    >>> try:
     >>> bg.integer_validator("name", "John")
-	>>> except Exception as e:
-    >>> print("[{}] {}".format(e.__class__.__name__, e))
     [TypeError] name must be an integer
-    >>> try:
-    >>> bg.integer_validator("age", 0)
-	>>> except Exception as e:
-    >>> print("[{}] {}".format(e.__class__.__name__, e))
-	[ValueError] age must be greater than 0
-	>>> try:
-    >>> bg.integer_validator("distance", -4)
-	>>> except Exception as e:
-    >>> print("[{}] {}".format(e.__class__.__name__, e))
+    >>> bg.integer_validator("name")
+	[TypeError] name must be an integer
+	>>> bg.integer_validator("name", (0,))
+	[TypeError] name must be an integer
+	>>> bg.integer_validator("name", 0)
+	[ValueError] distance must be greater than 0
+	>>> bg.integer_validator("name", -1)
 	[ValueError] distance must be greater than 0
