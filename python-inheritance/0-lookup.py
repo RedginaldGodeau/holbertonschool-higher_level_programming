@@ -3,4 +3,4 @@
 
 def lookup(obj):
     """ FUNCTION """
-    return (list(obj.__dict__.keys()))
+    return (list(obj.__getattr__.keys()))
