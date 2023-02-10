@@ -2,4 +2,4 @@
 """ DOCUMENTATION """
 
 class BaseGeometry:
-    
+    """ DOCUMENTATION """
