@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
-    new = []
-    size = len(matrix) * len(matrix[0])
+    new_table = []
+    
     for item in matrix:
-        new.append(item.copy())
+        new_table.append(item.copy);
+    
+    for item in new_table:
+        for i in range(len(item)):
+            item[i] **=2;
 
-    for i in range(size):
-        col = int(i / 3)
-        row = i % 3
-        new[col][row] **= 2
-    return (new)
+    return (new_table);
