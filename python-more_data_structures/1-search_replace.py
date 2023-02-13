@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 def search_replace(my_list, search, replace):
-    i = my_list.find(search)
 
-    if i == -1:
+    if not search in my_list:
         return (my_list)
+
+    i = my_list.index(search)
 
     new = my_list.copy()
     new[i] = replace
