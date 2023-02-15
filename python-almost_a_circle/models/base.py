@@ -2,6 +2,7 @@
 """_summary_"""
 import json
 
+
 class Base:
     """_summary_"""
 
@@ -43,6 +44,7 @@ class Base:
         new = cls(1, 1)
         new.update(**dictionary)
         return new
+
     @classmethod
     def load_from_file(cls):
         data = []

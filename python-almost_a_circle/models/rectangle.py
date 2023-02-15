@@ -65,11 +65,11 @@ class Rectangle(Base):
             dictionnary: get info for class
         """
         return {
-            "id": self.id, 
-            "width": self.width, 
+            "id": self.id,
+            "width": self.width,
             "height": self.height,
-            "x": self.x, 
-            "y": self.y
+            "x": self.x,
+            "y": self.y,
         }
 
     def getwidth(self):
@@ -205,6 +205,6 @@ class Rectangle(Base):
 
     def display(self):
         """display
-            print rectangle
+        print rectangle
         """
         print(self.getdisplay())
