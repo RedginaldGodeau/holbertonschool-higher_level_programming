@@ -147,7 +147,7 @@ class Rectangle(Base):
         Returns:
             int: get area of class
         """
-        return self.x * self.y
+        return self.width * self.height
 
     def getdisplay(self):
         """getdisplay
