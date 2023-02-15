@@ -64,7 +64,7 @@ class Square(Rectangle):
         Returns:
             int: get size
         """
-        return self.__height
+        return self.height
 
     def setsize(self, value):
         """setsize
