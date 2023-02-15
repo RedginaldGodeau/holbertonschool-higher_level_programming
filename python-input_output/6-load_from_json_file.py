@@ -3,11 +3,11 @@
 
 import json
 
+
 def load_from_json_file(filename):
-    """ FUNCTION """
-    
+    """FUNCTION"""
+
     with open(filename, "r", encoding="utf-8") as f:
         data = json.loads(f.read())
         f.close()
-        return (data)
-    
+        return data
