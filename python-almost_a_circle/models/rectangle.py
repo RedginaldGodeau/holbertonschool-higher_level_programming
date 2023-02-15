@@ -58,7 +58,19 @@ class Rectangle(Base):
             self.x = kwargs.get("x", self.x)
             self.y = kwargs.get("y", self.y)
 
-        
+    def to_dictionary(self):
+        """to_dictionary
+
+        Returns:
+            dictionnary: get info for class
+        """
+        return {
+            "id": self.id, 
+            "width": self.width, 
+            "height": self.height,
+            "x": self.x, 
+            "y": self.y
+        }
 
     def getwidth(self):
         """getwidth
