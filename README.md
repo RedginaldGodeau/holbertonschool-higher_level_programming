@@ -3,8 +3,6 @@
 
 ## 📑 DESCRIPTION
 
-Python est un langage de programmation interprété et orienté objet qui a été créé par Guido van Rossum en 1991. Il est conçu pour être facile à apprendre, à lire et à écrire, et est utilisé dans une variété de domaines tels que le développement web, l'analyse de données, l'intelligence artificielle et l'automatisation de tâches.
-
 Python est un langage de haut niveau, ce qui signifie qu'il est abstrait de la complexité technique des ordinateurs et se concentre sur les concepts et les idées plutôt que sur la manipulation des bits et des octets. Les langages de haut niveau sont souvent plus accessibles pour les débutants en programmation et permettent aux développeurs de se concentrer sur la résolution de problèmes plutôt que sur les détails techniques.
 
 Le "high level programming" (programmation de haut niveau) est une approche de programmation qui consiste à utiliser des langages de haut niveau tels que Python pour écrire du code. Cette méthode se concentre sur l'abstraction des détails techniques du langage de programmation et permet aux développeurs de se concentrer sur les concepts et les idées.
