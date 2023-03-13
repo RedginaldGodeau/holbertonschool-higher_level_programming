@@ -1,3 +1,2 @@
 -- print full table
- SELECT * FROM first_table
- 
+ SHOW SELECT * FROM first_table
