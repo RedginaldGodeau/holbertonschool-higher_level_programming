@@ -1,2 +1,2 @@
 -- print full table
-DESC first_table 
+SELECT * FROM first_table;
