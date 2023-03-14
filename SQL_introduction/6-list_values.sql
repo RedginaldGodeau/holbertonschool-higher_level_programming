@@ -1,2 +1,2 @@
 -- SHOW ROWS
-SHOW ROWS FROM first_table;
+SHOW first_table FROM hbtn_0c_0;
