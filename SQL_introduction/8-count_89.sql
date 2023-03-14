@@ -1,4 +1,2 @@
 -- COUNT WHERE
-SELECT COUNT(id)
-FROM first_table 
-WHERE id = 89;
+SHOW TABLES LIKE 'hbtn_0c_0.first_table%';
