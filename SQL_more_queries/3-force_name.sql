@@ -1,0 +1,5 @@
+-- CREATE TABLE
+CREATE TABLE IF NOT EXISTS force_name (
+	id INT,
+	name INT(256) NOT NULL
+);
