@@ -1,5 +1,5 @@
 -- DEFAULT 0
 CREATE TABLE IF NOT EXISTS force_name (
 	id INT DEFAULT '1',
-	name INT(256) NOT NULL
+	name VARCHAR(256) NOT NULL
 );
