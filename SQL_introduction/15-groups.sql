@@ -1,2 +1,2 @@
 -- Get name
-SELECT score, COUNT(score) AS number FROM hbtn_0c_0.second_table 
+SELECT score, COUNT(score) AS number FROM second_table;

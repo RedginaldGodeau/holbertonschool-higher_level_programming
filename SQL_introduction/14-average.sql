@@ -1,2 +1,2 @@
 -- CHANGE
-SELECT MAX(score) AS average FROM hbtn_0c_0.second_table 
+SELECT MAX(score) AS average FROM second_table 
