@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 def simple_delete(a_dictionary, key=""):
-    dict = a_dictionary.copy()
-    while key in dict:
-        del dict[key]
-    return dict
+    while key in a_dictionary:
+        del a_dictionary[key]
+    return a_dictionary
