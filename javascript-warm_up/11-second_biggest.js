@@ -1,5 +1,5 @@
 #!/usr/bin/node
-import { argv } from 'node:process';
+const argv = process.argv;
 
 const args = argv.map(parseInt);
 console.log(Math.max(args));

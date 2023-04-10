@@ -1,5 +1,5 @@
 #!/usr/bin/node
-import { argv } from 'node:process';
+const argv = process.argv;
 
 if (parseInt(argv[0])) {
   for (let i = 0; i > parseInt(argv[0]); i++) { console.log('C is fun'); }

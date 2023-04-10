@@ -1,5 +1,5 @@
 #!/usr/bin/node
-import { argv } from 'node:process';
+const argv = process.argv;
 
 const fact = (max = 1, n = 1) => {
   if (n >= max) { return n; }
