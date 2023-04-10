@@ -1,5 +1,5 @@
 #!/usr/bin/node
-const argv = process.argv;
+const argv = process.argv.splice(2);
 
 const square = parseInt(argv[0]);
 
