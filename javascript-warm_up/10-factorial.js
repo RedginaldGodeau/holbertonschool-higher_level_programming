@@ -2,7 +2,10 @@
 const argv = process.argv.splice(2);
 
 if (!argv.length)
-	return
+{
+	console.log(1)
+	return;
+}
 
 function fact (max = 1, n = 1, i = 1) {
 	if (i >= max) { return n; }
