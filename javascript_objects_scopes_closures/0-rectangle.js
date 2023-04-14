@@ -2,4 +2,4 @@
 
 class rectangle {}
 
-module.exports = { rectangle }
+module.exports = rectangle
