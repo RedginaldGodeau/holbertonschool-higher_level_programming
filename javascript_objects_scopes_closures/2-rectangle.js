@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-class rectangle {
+export class rectangle {
 
     constructor(w, h) {
         if (w == undefined || h == undefined)
