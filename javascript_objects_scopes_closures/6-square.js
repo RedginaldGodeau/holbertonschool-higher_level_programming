@@ -17,7 +17,7 @@ class Rectangle {
   }
 
   rotate () {
-    for (let i = 0; i < w * 2; i++) { console.log('X'.repeat(this.height * 2)); }
+    for (let i = 0; i < w; i++) { console.log('X'.repeat(this.height)); }
   }
 }
 
