@@ -1,5 +1,5 @@
 #!/usr/bin/node
 
-export class rectangle {}
+class rectangle {}
 
 module.exports = { rectangle }
