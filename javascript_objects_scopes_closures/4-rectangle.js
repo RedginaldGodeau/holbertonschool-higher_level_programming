@@ -9,15 +9,15 @@ class Rectangle {
   }
 
   print () {
-    for (let i = 0; i < h; i++) { console.log('X'.repeat(w)); }
+    for (let i = 0; i < this.height; i++) { console.log('X'.repeat(this.width)); }
   }
 
   double () {
-    for (let i = 0; i < h * 2; i++) { console.log('X'.repeat(w * 2)); }
+    for (let i = 0; i < this.height * 2; i++) { console.log('X'.repeat(this.width * 2)); }
   }
 
   rotate () {
-    for (let i = 0; i < w * 2; i++) { console.log('X'.repeat(h * 2)); }
+    for (let i = 0; i < this.width * 2; i++) { console.log('X'.repeat(this.height * 2)); }
   }
 }
 
