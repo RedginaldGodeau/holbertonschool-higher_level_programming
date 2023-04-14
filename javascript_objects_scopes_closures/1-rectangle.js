@@ -8,3 +8,5 @@ export class rectangle {
     }
 
 }
+
+module.exports = { rectangle }
