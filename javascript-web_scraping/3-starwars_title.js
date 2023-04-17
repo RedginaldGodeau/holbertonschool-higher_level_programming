@@ -9,5 +9,5 @@ request(`https://swapi-api.hbtn.io/api/films/${argv[0]}`, function (err, rep, bo
   }
   const data = JSON.parse(body);
 
-  console.log(data);
+  console.log(data.title);
 });
