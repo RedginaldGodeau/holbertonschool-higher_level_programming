@@ -1,12 +1,18 @@
 #!/usr/bin/node
-const argv = process.argv.splice(2);
-const request = require('request');
+const req = require('request');
 
-request(`${argv[0]}?completed=true`, function (err, rep, body) {
-  if (err) {
-    console.log(err);
-    return;
-  }
+req(process.argv[2], (err, result, body) => {
+  if (err) console.log(err.message);
+  const stats = {};
   const data = JSON.parse(body);
-  console.log(data);
+  data.forEach(obj => {
+    if (obj.completed === true) {
+      if (isNaN(stats[obj.userId])) {
+        stats[obj.userId] = 1;
+      } else {
+        stats[obj.userId] = stats[obj.userId] + 1;
+      }
+    }
+  });
+  console.log(stats);
 });
